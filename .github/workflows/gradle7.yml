@@ -25,8 +25,8 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2.0.10
 
-      - name: Install build-tools 34.0.0, platformtools and platform android-34
-        run: sdkmanager --install "build-tools;34.0.0" "platform-tools" "platforms;android-34"
+      - name: Install build-tools 33.0.2, platformtools and platform android-33
+        run: sdkmanager --install "build-tools;33.0.2" "platform-tools" "platforms;android-33"
 
       - name: Build with Gradle
         run: |
