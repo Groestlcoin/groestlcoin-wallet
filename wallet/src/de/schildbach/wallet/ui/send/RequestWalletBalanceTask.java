@@ -295,7 +295,7 @@ public final class RequestWalletBalanceTask {
                     }
                 }
 
-                final int trustThreshold = servers.size() / 5; // since there are 30+ servers, require 6 with good results.
+                final int trustThreshold = servers.size() / (servers.size() > 15 ? 5 : 2); // since there are 30+ servers, require 6 with good results.
                 for (final Iterator<Multiset.Entry<UTXO>> i = countedUtxos.entrySet().iterator(); i.hasNext();) {
                     final Multiset.Entry<UTXO> entry = i.next();
                     if (entry.getCount() < trustThreshold)
