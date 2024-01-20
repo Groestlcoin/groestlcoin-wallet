@@ -6,3 +6,5 @@ testNet3/res/mipmap-*hdpi/
 .cxx
 dev
 prod
+
+.DS_Store
