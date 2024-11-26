@@ -193,8 +193,8 @@ public final class Constants {
     /** Values less than this are considered not spendable in an economic way */
     public static final Coin MIN_NONDUST = Coin.valueOf(546); // satoshis
 
-    public static final int SDK_DEPRECATED_BELOW = Build.VERSION_CODES.O;
-    public static final String SECURITY_PATCH_INSECURE_BELOW = "2021-07-01";
+    public static final int SDK_DEPRECATED_BELOW = Build.VERSION_CODES.P;
+    public static final String SECURITY_PATCH_INSECURE_BELOW = "2024-01-01";
 
     public static final int NOTIFICATION_ID_CONNECTIVITY = 1;
     public static final int NOTIFICATION_ID_COINS_RECEIVED = 2;
