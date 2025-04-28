@@ -55,7 +55,7 @@ android {
         }
 
         minSdkVersion 26
-        targetSdkVersion 33
+        targetSdkVersion 34
     }
 
     externalNativeBuild {
